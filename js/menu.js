@@ -1,10 +1,12 @@
 const iconMenu = document.querySelector('.header__burger');
 if(iconMenu){
 	const headerMenu = document.querySelector('.header__menu');
+	const headerHead = document.querySelector('.header__head');
 	iconMenu.addEventListener("click", function(e){
 		document.body.classList.toggle('lock');
 		iconMenu.classList.toggle('active');
 		headerMenu.classList.toggle('active');
+		headerHead.classList.toggle('active');
 	});
 }
 
