@@ -20,9 +20,7 @@ document.querySelectorAll('.works__filter-item').forEach((item)=>
 		);
 
 		item.classList.add('active');
-		document.querySelectorAll('.works__img').forEach(
-			(child)=>child.classList.remove('active')
-		);
+		
 		document.querySelectorAll('.'+filter).forEach(
 			(child)=>child.classList.add('active')
 		);
