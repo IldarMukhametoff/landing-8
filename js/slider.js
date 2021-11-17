@@ -34,3 +34,9 @@ new Swiper('.brands__slider',{
 		}
 	}
 });
+new Swiper('.services__slider',{
+	pagination:{
+		el:'.swiper-pagination',
+		clickable:true,
+	},
+});
